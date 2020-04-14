@@ -1,28 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@rafik-testlink 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-tupilabs
-/
-jenkins-testlink-plugin-tutorial
-3
-1546
- Code Issues 1 Pull requests 0 Actions Projects 0 Wiki Security Insights
-jenkins-testlink-plugin-tutorial/pom.xml
-@kinow kinow Add java 6
-da422ae on 11 Jul 2013
-@kinow@OMerkel@cesar1983
-315 lines (293 sloc)  9.98 KB
-  
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -135,7 +110,6 @@ da422ae on 11 Jul 2013
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.3</version>
 				<configuration>
 				<source>1.6</source>
 				<target>1.6</target>
@@ -339,15 +313,3 @@ da422ae on 11 Jul 2013
 		</dependency>
 	</dependencies>
 </project>
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
