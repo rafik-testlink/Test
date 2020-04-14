@@ -41,6 +41,7 @@ public class TestCurrentTime
 		Assert.assertNotNull( System.currentTimeMillis() );
 		
 		Assert.assertTrue( System.currentTimeMillis() > 0 );
+		driver.get("http://127.0.0.1/testlink/login.php?note=logout&viewer=");
 	}
 	
 }
