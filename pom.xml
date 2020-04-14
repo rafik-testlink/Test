@@ -3,4 +3,18 @@
   <groupId>Projet</groupId>
   <artifactId>Projet</artifactId>
   <version>0.0.1-SNAPSHOT</version> 
+  
+  
+  
+ <build> 
+  <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+				<source>1.6</source>
+				<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+</build>
 </project>
